@@ -16,6 +16,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatSelectModule } from "@angular/material/select";
 import { MatTableModule } from "@angular/material/table";
 import { HttpClientModule } from "@angular/common/http";
+import { DcontentComponent } from './dcontent/dcontent.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { HttpClientModule } from "@angular/common/http";
     FooterComponent,
     ContentComponent,
     SideBarComponent,
+    DcontentComponent,
     
   ],
   imports: [
